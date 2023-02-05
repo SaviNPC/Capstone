@@ -1,0 +1,2020 @@
+/* wireframe */
+
+position: relative;
+width: 2811px;
+height: 3556px;
+
+background: #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Frame 18 */
+
+position: absolute;
+left: 24.55%;
+right: 24.23%;
+top: 8.38%;
+bottom: 12.06%;
+
+background: #FFFFFF;
+
+
+/* navigation */
+
+position: absolute;
+width: 876px;
+height: 47px;
+left: 303px;
+top: 34px;
+
+
+
+/* Logo  1 */
+
+position: absolute;
+width: 173.9px;
+height: 47px;
+left: 303px;
+top: 34px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0.34%;
+top: 0%;
+bottom: 0%;
+
+background: url(image0_1_53);
+
+
+/* Links */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+position: absolute;
+width: 640px;
+height: 24px;
+left: 539px;
+top: 45px;
+
+
+
+/* Link */
+
+width: 55px;
+height: 24px;
+
+/* navbar */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+width: 55px;
+height: 24px;
+
+/* navbar */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link */
+
+width: 53px;
+height: 24px;
+
+/* navbar */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Link */
+
+width: 121px;
+height: 24px;
+
+/* navbar */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Link */
+
+width: 116px;
+height: 24px;
+
+/* navbar */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Link */
+
+width: 51px;
+height: 24px;
+
+/* navbar */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #1E1E1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* hero */
+
+position: absolute;
+width: 1440px;
+height: 456px;
+left: 0px;
+top: 123px;
+
+
+
+/* Rectangle 33 */
+
+position: absolute;
+width: 1440px;
+height: 406px;
+left: 0px;
+top: 123px;
+
+background: #495E57;
+
+
+/* Content */
+
+position: absolute;
+width: 422px;
+height: 331px;
+left: 290px;
+top: 170px;
+
+
+
+/* Button Primary */
+
+position: absolute;
+width: 200px;
+height: 60px;
+left: 290px;
+top: 441px;
+
+border-radius: 16px;
+
+
+/* Background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #F4CE14;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+
+
+/* Text */
+
+position: absolute;
+height: 22px;
+left: 25px;
+right: 24px;
+top: calc(50% - 22px/2);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Subtitle */
+
+position: absolute;
+width: 422px;
+height: 79px;
+left: 290px;
+top: 290px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140.62%;
+/* or 28px */
+
+color: #EDEFEE;
+
+
+
+/* Title */
+
+position: absolute;
+width: 399px;
+height: 106px;
+left: 290px;
+top: 170px;
+
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 67px;
+
+color: #F4CE14;
+
+
+
+/* Rectangle 45 */
+
+position: absolute;
+width: 391px;
+height: 435px;
+left: 759px;
+top: 144px;
+
+background: url(restauranfood);
+border-radius: 16px;
+
+
+/* highlights */
+
+position: absolute;
+width: 858px;
+height: 555px;
+left: 292px;
+top: 616px;
+
+
+
+/* Button Primary */
+
+position: absolute;
+width: 200px;
+height: 60px;
+left: 950px;
+top: 617px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+
+
+/* Background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #F4CE14;
+border-radius: 16px;
+
+
+/* Text */
+
+position: absolute;
+height: 22px;
+left: 25px;
+right: 24px;
+top: calc(50% - 22px/2);
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Title */
+
+position: absolute;
+width: 627px;
+height: 76px;
+left: 292px;
+top: 616px;
+
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 62.8571px;
+line-height: 75px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* cards */
+
+position: absolute;
+width: 858px;
+height: 439px;
+left: 292px;
+top: 732px;
+
+
+
+/* Card */
+
+position: absolute;
+width: 264.67px;
+height: 439px;
+left: 292px;
+top: 732px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 42.2%;
+bottom: 0%;
+
+background: #EDEFEE;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 57.8%;
+
+background: url(greek salad);
+border-radius: 16px 16px 0px 0px;
+
+
+/* Greek salad */
+
+position: absolute;
+left: 9.45%;
+right: 28.74%;
+top: 46.6%;
+bottom: 47.6%;
+
+/* Card_title */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 90%;
+/* or 22px */
+
+color: #000000;
+
+
+
+/* The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. */
+
+position: absolute;
+left: 9.45%;
+right: 8.66%;
+top: 57.6%;
+bottom: 15%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #495E57;
+
+
+
+/* $12.99 */
+
+position: absolute;
+left: 73.62%;
+right: 3.94%;
+top: 46.8%;
+bottom: 49.4%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #EE9972;
+
+
+
+/* Group 4 */
+
+position: absolute;
+width: 147.96px;
+height: 28.1px;
+left: 25.01px;
+top: 390.71px;
+
+
+
+/* Order a delivery */
+
+position: absolute;
+left: 9.45%;
+right: 36.61%;
+top: 89%;
+bottom: 4.6%;
+
+/* Nav_Link */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+
+
+
+/* Group */
+
+position: absolute;
+left: 59.06%;
+right: 34.65%;
+top: 89.8%;
+bottom: 7.8%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 59.06%;
+right: 34.65%;
+top: 89.8%;
+bottom: 7.8%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 59.06%;
+right: 35.59%;
+top: 89.8%;
+bottom: 7.8%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 60%;
+right: 38.43%;
+top: 89.97%;
+bottom: 9.69%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 63.46%;
+right: 34.65%;
+top: 91.17%;
+bottom: 7.8%;
+
+background: #000000;
+
+
+/* Card */
+
+position: absolute;
+width: 264.67px;
+height: 439px;
+left: 590.99px;
+top: 732px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 42.2%;
+bottom: 0%;
+
+background: #EDEFEE;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 57.8%;
+
+background: url(image0_402_314);
+border-radius: 16px 16px 0px 0px;
+
+
+/* Greek salad */
+
+position: absolute;
+left: 9.45%;
+right: 28.74%;
+top: 46.6%;
+bottom: 47.6%;
+
+/* Card_title */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 90%;
+/* or 22px */
+
+color: #000000;
+
+
+
+/* The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. */
+
+position: absolute;
+left: 9.45%;
+right: 8.66%;
+top: 57.6%;
+bottom: 15%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #495E57;
+
+
+
+/* $12.99 */
+
+position: absolute;
+left: 73.62%;
+right: 3.94%;
+top: 46.8%;
+bottom: 49.4%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #EE9972;
+
+
+
+/* Group 4 */
+
+position: absolute;
+width: 147.96px;
+height: 28.1px;
+left: 25.01px;
+top: 390.71px;
+
+
+
+/* Order a delivery */
+
+position: absolute;
+left: 9.45%;
+right: 36.61%;
+top: 89%;
+bottom: 4.6%;
+
+/* Nav_Link */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+
+
+
+/* Group */
+
+position: absolute;
+left: 59.06%;
+right: 34.65%;
+top: 89.8%;
+bottom: 7.8%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 59.06%;
+right: 34.65%;
+top: 89.8%;
+bottom: 7.8%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 59.06%;
+right: 35.59%;
+top: 89.8%;
+bottom: 7.8%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 60%;
+right: 38.43%;
+top: 89.97%;
+bottom: 9.69%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 63.46%;
+right: 34.65%;
+top: 91.17%;
+bottom: 7.8%;
+
+background: #000000;
+
+
+/* Card */
+
+position: absolute;
+width: 264.67px;
+height: 439px;
+left: 885.33px;
+top: 732px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 42.2%;
+bottom: 0%;
+
+background: #EDEFEE;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 57.8%;
+
+background: url(lemon dessert.jpg);
+border-radius: 16px 16px 0px 0px;
+
+
+/* Greek salad */
+
+position: absolute;
+left: 9.45%;
+right: 28.74%;
+top: 46.6%;
+bottom: 47.6%;
+
+/* Card_title */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 90%;
+/* or 22px */
+
+color: #000000;
+
+
+
+/* The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. */
+
+position: absolute;
+left: 9.45%;
+right: 8.66%;
+top: 57.6%;
+bottom: 15%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #495E57;
+
+
+
+/* $12.99 */
+
+position: absolute;
+left: 73.62%;
+right: 3.94%;
+top: 46.8%;
+bottom: 49.4%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #EE9972;
+
+
+
+/* Group 4 */
+
+position: absolute;
+width: 147.96px;
+height: 28.1px;
+left: 25.01px;
+top: 390.71px;
+
+
+
+/* Order a delivery */
+
+position: absolute;
+left: 9.45%;
+right: 36.61%;
+top: 89%;
+bottom: 4.6%;
+
+/* Nav_Link */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+
+
+
+/* Group */
+
+position: absolute;
+left: 59.06%;
+right: 34.65%;
+top: 89.8%;
+bottom: 7.8%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 59.06%;
+right: 34.65%;
+top: 89.8%;
+bottom: 7.8%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 59.06%;
+right: 35.59%;
+top: 89.8%;
+bottom: 7.8%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 60%;
+right: 38.43%;
+top: 89.97%;
+bottom: 9.69%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 63.46%;
+right: 34.65%;
+top: 91.17%;
+bottom: 7.8%;
+
+background: #000000;
+
+
+/* testimonials */
+
+position: absolute;
+width: 1529px;
+height: 590px;
+left: -4px;
+top: 1244px;
+
+
+
+/* Rectangle 56 */
+
+position: absolute;
+width: 1440px;
+height: 590px;
+left: 0px;
+top: 1244px;
+
+background: #D9D9D9;
+
+
+/* Component 2 */
+
+position: absolute;
+width: 1529px;
+height: 560px;
+left: -4px;
+top: 1247px;
+
+
+
+/* Section_2 */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FDF4EE;
+
+
+/* Testimonials */
+
+position: absolute;
+left: 42.25%;
+right: 46.83%;
+top: 21.79%;
+bottom: 70.54%;
+
+/* H1 */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+
+color: #333333;
+
+
+
+/* Review */
+
+position: absolute;
+visibility: hidden;
+left: 33.36%;
+right: 53.73%;
+top: 40.71%;
+bottom: 27.5%;
+
+
+
+/* Review */
+
+position: absolute;
+visibility: hidden;
+left: 18.9%;
+right: 68.18%;
+top: 40.71%;
+bottom: 27.5%;
+
+
+
+/* Review */
+
+position: absolute;
+visibility: hidden;
+left: 47.81%;
+right: 39.27%;
+top: 40.71%;
+bottom: 27.5%;
+
+
+
+/* Review */
+
+position: absolute;
+visibility: hidden;
+left: 62.26%;
+right: 24.82%;
+top: 40.71%;
+bottom: 27.5%;
+
+
+
+/* Component 10 */
+
+position: absolute;
+width: 200px;
+height: 175px;
+left: 290px;
+top: 1478px;
+
+
+
+/* Rectangle 57 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Rating */
+
+position: absolute;
+left: 12%;
+right: 65.5%;
+top: 16.57%;
+bottom: 74.29%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 12%;
+right: 64.5%;
+top: 33.14%;
+bottom: 40.57%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+
+
+/* Name */
+
+position: absolute;
+left: 41.5%;
+right: 39%;
+top: 38.86%;
+bottom: 52%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Review rext */
+
+position: absolute;
+left: 12%;
+right: 8.9%;
+top: 69.14%;
+bottom: 4.57%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Line 11 */
+
+position: absolute;
+left: 11.5%;
+right: 55.26%;
+top: 33.14%;
+bottom: 66.86%;
+
+border: 1px solid #000000;
+transform: rotate(43.78deg);
+
+
+/* Line 12 */
+
+position: absolute;
+left: 12.5%;
+right: 55.67%;
+top: 59.43%;
+bottom: 40.57%;
+
+border: 1px solid #000000;
+transform: rotate(-46.27deg);
+
+
+/* Component 11 */
+
+position: absolute;
+width: 200px;
+height: 175px;
+left: 510px;
+top: 1478px;
+
+
+
+/* Rectangle 57 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Rating */
+
+position: absolute;
+left: 12%;
+right: 65.5%;
+top: 16.57%;
+bottom: 74.29%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 12%;
+right: 64.5%;
+top: 33.14%;
+bottom: 40.57%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+
+
+/* Name */
+
+position: absolute;
+left: 41.5%;
+right: 39%;
+top: 38.86%;
+bottom: 52%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Review rext */
+
+position: absolute;
+left: 12%;
+right: 8.9%;
+top: 69.14%;
+bottom: 4.57%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Line 11 */
+
+position: absolute;
+left: 11.5%;
+right: 55.26%;
+top: 33.14%;
+bottom: 66.86%;
+
+border: 1px solid #000000;
+transform: rotate(43.78deg);
+
+
+/* Line 12 */
+
+position: absolute;
+left: 12.5%;
+right: 55.67%;
+top: 59.43%;
+bottom: 40.57%;
+
+border: 1px solid #000000;
+transform: rotate(-46.27deg);
+
+
+/* Component 12 */
+
+position: absolute;
+width: 200px;
+height: 175px;
+left: 730px;
+top: 1478px;
+
+
+
+/* Rectangle 57 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Rating */
+
+position: absolute;
+left: 12%;
+right: 65.5%;
+top: 16.57%;
+bottom: 74.29%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 12%;
+right: 64.5%;
+top: 33.14%;
+bottom: 40.57%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+
+
+/* Name */
+
+position: absolute;
+left: 41.5%;
+right: 39%;
+top: 38.86%;
+bottom: 52%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Review rext */
+
+position: absolute;
+left: 12%;
+right: 8.9%;
+top: 69.14%;
+bottom: 4.57%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Line 11 */
+
+position: absolute;
+left: 11.5%;
+right: 55.26%;
+top: 33.14%;
+bottom: 66.86%;
+
+border: 1px solid #000000;
+transform: rotate(43.78deg);
+
+
+/* Line 12 */
+
+position: absolute;
+left: 12.5%;
+right: 55.67%;
+top: 59.43%;
+bottom: 40.57%;
+
+border: 1px solid #000000;
+transform: rotate(-46.27deg);
+
+
+/* Component 13 */
+
+position: absolute;
+width: 200px;
+height: 175px;
+left: 950px;
+top: 1478px;
+
+
+
+/* Rectangle 57 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Rating */
+
+position: absolute;
+left: 12%;
+right: 65.5%;
+top: 16.57%;
+bottom: 74.29%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 12%;
+right: 64.5%;
+top: 33.14%;
+bottom: 40.57%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+
+
+/* Name */
+
+position: absolute;
+left: 41.5%;
+right: 39%;
+top: 38.86%;
+bottom: 52%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Review rext */
+
+position: absolute;
+left: 12%;
+right: 8.9%;
+top: 69.14%;
+bottom: 4.57%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Line 11 */
+
+position: absolute;
+left: 11.5%;
+right: 55.26%;
+top: 33.14%;
+bottom: 66.86%;
+
+border: 1px solid #000000;
+transform: rotate(43.78deg);
+
+
+/* Line 12 */
+
+position: absolute;
+left: 12.5%;
+right: 55.67%;
+top: 59.43%;
+bottom: 40.57%;
+
+border: 1px solid #000000;
+transform: rotate(-46.27deg);
+
+
+/* about */
+
+position: absolute;
+width: 869px;
+height: 468px;
+left: 292px;
+top: 1921px;
+
+
+
+/* Group 6 */
+
+position: absolute;
+width: 373px;
+height: 468px;
+left: 292px;
+top: 1921px;
+
+
+
+/* Little Lemon */
+
+position: absolute;
+height: 77px;
+left: 20.28%;
+right: 53.82%;
+top: 1921px;
+
+/* Display_serif */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Chicago */
+
+position: absolute;
+height: 48px;
+left: 20.28%;
+right: 68.06%;
+top: 1979px;
+
+/* Subheading */
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+color: #333333;
+
+
+
+/* Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. */
+
+position: absolute;
+width: 370px;
+height: 322px;
+left: 292px;
+top: 2067px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: justify;
+
+color: #000000;
+
+
+
+/* Component 14 */
+
+position: absolute;
+width: 276px;
+height: 338px;
+left: 714px;
+top: 2038px;
+
+
+
+/* Rectangle 62 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 1.49%;
+top: 0.59%;
+bottom: 0%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+
+
+/* Line 13 */
+
+position: absolute;
+left: 0%;
+right: -55.92%;
+top: 0.59%;
+bottom: 99.41%;
+
+border: 1px solid #000000;
+transform: matrix(0.62, 0.78, -0.79, 0.61, 0, 0);
+
+
+/* Line 14 */
+
+position: absolute;
+left: 0%;
+right: -55.9%;
+top: 100%;
+bottom: 0%;
+
+border: 1px solid #000000;
+transform: matrix(0.62, -0.78, 0.79, 0.61, 0, 0);
+
+
+/* Component 15 */
+
+position: absolute;
+width: 272px;
+height: 338px;
+left: 889px;
+top: 1931px;
+
+
+
+/* Rectangle 62 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 1.49%;
+top: 0.59%;
+bottom: 0%;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+
+
+/* Line 13 */
+
+position: absolute;
+left: 0%;
+right: -57.33%;
+top: 0.59%;
+bottom: 99.41%;
+
+border: 1px solid #000000;
+transform: rotate(51.74deg);
+
+
+/* Line 14 */
+
+position: absolute;
+left: 0%;
+right: -57.3%;
+top: 100%;
+bottom: 0%;
+
+border: 1px solid #000000;
+transform: rotate(-51.75deg);
+
+
+/* bottom navigation */
+
+position: absolute;
+width: 1440px;
+height: 417px;
+left: 0px;
+top: 2412px;
+
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1440px;
+height: 417px;
+left: 0px;
+top: 2412px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 62 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 21.32%;
+right: 67.43%;
+top: 87.63%;
+bottom: 2.51%;
+
+background: #AFAFAF;
+border: 1px solid #000000;
+
+
+/* Group 20 */
+
+position: absolute;
+width: 221.71px;
+height: 290.92px;
+left: 277.45px;
+top: 2472.43px;
+
+
+
+/* Line 13 */
+
+position: absolute;
+left: 22.31%;
+right: 55.41%;
+top: 87.4%;
+bottom: 12.13%;
+
+border: 1px solid #000000;
+transform: matrix(0.46, 0.89, -0.91, 0.42, 0, 0);
+
+
+/* Line 14 */
+
+position: absolute;
+left: 19.27%;
+right: 58.71%;
+top: 96.65%;
+bottom: 2.04%;
+
+border: 1px solid #000000;
+transform: matrix(0.6, -0.8, 0.83, 0.56, 0, 0);
+
+
+/* Group 21 */
+
+position: absolute;
+width: 210.86px;
+height: 214px;
+left: 538.01px;
+top: 2507px;
+
+
+
+/* Home About menu Reservations Order Online Login */
+
+position: absolute;
+left: 37.36%;
+right: 48%;
+top: 90.28%;
+bottom: 3.82%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+/* or 26px */
+
+color: #333333;
+
+
+
+/* Doormat Nav igation */
+
+position: absolute;
+width: 128.43px;
+height: 46px;
+left: 538.01px;
+top: 2507px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+
+color: #495E57;
+
+
+
+/* Group 22 */
+
+position: absolute;
+width: 210.86px;
+height: 214px;
+left: 769.95px;
+top: 2507px;
+
+
+
+/* Adress phone number email */
+
+position: absolute;
+left: 53.47%;
+right: 31.89%;
+top: 90.28%;
+bottom: 3.82%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+/* or 26px */
+
+color: #333333;
+
+
+
+/* Contact */
+
+position: absolute;
+width: 128.43px;
+height: 23px;
+left: 769.95px;
+top: 2507px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+
+color: #495E57;
+
+
+
+/* Adress phone number email */
+
+position: absolute;
+left: 69.58%;
+right: 15.76%;
+top: 90.28%;
+bottom: 3.82%;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+/* or 26px */
+
+color: #333333;
+
+
+
+/* Social Media Links */
+
+position: absolute;
+width: 211px;
+height: 23px;
+left: 1002px;
+top: 2507px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+
+color: #495E57;
+
+
+
+/* Grid Visualization */
+
+position: absolute;
+width: 1440px;
+height: 2829px;
+left: 690px;
+top: 298px;
+
+
+
+/* 12 column grid */
+
+position: absolute;
+width: 1440px;
+height: 2829px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 70px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 180px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 290px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 400px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 510px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 620px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 730px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 840px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 950px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 1060px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 1170px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
+
+
+/* Rectangle */
+
+position: absolute;
+width: 90px;
+height: 2831px;
+left: 1280px;
+top: -1px;
+
+background: rgba(255, 0, 0, 0.1);
