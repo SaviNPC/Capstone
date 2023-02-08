@@ -86,6 +86,14 @@ Footer{
   display: flex;
 }
 
+Main .testimonies{
+  display: flex;
+}
+
+Main .cards{
+  display: flex;
+}
+
 
 /*
 Header{
