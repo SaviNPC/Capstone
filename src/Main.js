@@ -5,21 +5,21 @@ import './App.css';
 function Main(){
     return (
     <main>
-        <section className="chicago">
+        <section className="intro">
             <h1>Little Lemon</h1>
             <h2>Chicago</h2>
             <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur.</p>
+            <button>Reserve a Table</button>
             <img src={require("./images/4food.jpg")} alt="Four pieces of food" style={{
                 width: 200,
                 height: 300,
                 borderRadius: 10,
                 }}/>
-            <button>Reserve a Table</button>
         </section>
 
         <section className="specials">
             <h1>This weeks specials!</h1>
-            <button>Online Menu</button>
+            <button style={{marginBottom: 10}}>Online Menu</button>
             <div className='cards'>
                 <article className='card1'>
                     <img src={require("./images/greekSalad.jpg")} alt="Greek Salad" style={{
@@ -120,7 +120,7 @@ function Main(){
             </div>
         </section>
 
-        <secion className='overlap'>
+        <secion className='outro'>
             <h1>Little Lemon</h1>
             <h2>Chicago</h2>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.

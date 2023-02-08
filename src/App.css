@@ -32,30 +32,25 @@ body{
 }
 
 Header{
-  background-color: aqua;
-  color: #fff;
   margin: 10px;
-  padding: 15px;
+  padding: 1px;
   border-radius: 10px;
   font-size: 125%;
   display: inline-flex;
 }
 
 Nav .navBar{
-  background-color: aqua;
-  color: #fff;
   margin: 10px;
-  padding: 15px;
+  padding: 5px;
   border-radius: 10px;
-  font-size: 125%;
+  font-size: 100%;
 }
 
 Nav .navImg{
-  background-color: white;
+  margin-right: 3px;
 }
 
 Nav .navMenu{
-  background-color: Red;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
@@ -66,24 +61,40 @@ Nav a{
   color: black;
   font-weight: 500;
 }
+/*Nav Ends*/
+
 
 Main{
-  background-color: aqua;
-  color: #fff;
   margin: 10px;
   padding: 15px;
   border-radius: 10px;
   font-size: 125%;
 }
 
-Footer{
-  background-color: aqua;
-  color: #fff;
-  margin: 10px;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 125%;
-  display: flex;
+
+
+Main .intro{
+  background-color: #495E57;
+  margin: 0px;
+  padding: 0%;
+}
+
+Main .intro h1{
+  color: #F4CE14;
+}
+
+Main .intro h2{
+  color: #EDEFEE;
+}
+
+Main .intro p{
+  color: #EDEFEE;
+}
+
+Main .intro button{
+  background-color: #F4CE14;
+  color: #000000;
+  font-weight: bold;
 }
 
 Main .testimonies{
@@ -93,7 +104,16 @@ Main .testimonies{
 Main .cards{
   display: flex;
 }
+/*MAIN ENDS*/
 
+Footer{
+  background-color: #92929211;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 125%;
+  display: flex;
+}
 
 /*
 Header{
