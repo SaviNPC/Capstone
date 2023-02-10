@@ -9,10 +9,8 @@ function Main(){
             <h1>Little Lemon</h1>
             <h2>Chicago</h2>
             <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur.</p>
-            <button>Reserve a Table</button>
+            <button style={{borderRadius: 12}}>Reserve a Table</button>
             <img src={require("./images/4food.jpg")} alt="Four pieces of food" style={{
-                width: 200,
-                height: 300,
                 borderRadius: 10,
                 }}/>
         </section>
@@ -23,51 +21,51 @@ function Main(){
             <div className='cards'>
                 <article className='card1'>
                     <img src={require("./images/greekSalad.jpg")} alt="Greek Salad" style={{
-                    width: 100,
-                    height: 100,
+                    width: 300,
+                    height: 225,
                     borderRadius: 10,
                     }}/>
-                    <h1 className='dish'>Greek salad</h1>
-                    <p className='price'>$12.99</p>
+                    <h2 className='dish'>Greek salad</h2>
+                    <p className='price' style={{color: '#FA7000', fontWeight: 'bold'}}>$12.99</p>
                     <p className="description">The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </p>
-                    <p className='order'>Order a Delivery</p>
-                    <img src={require("./images/bikeIcon.png")} alt="Delivery icon" style={{
-                    width: 10,
-                    height: 10,
+                    <p className='order'>Order a Delivery <img src={require("./images/bikeIcon.png")} alt="Delivery icon" style={{
+                    width: 15,
+                    height: 15,
                     borderRadius: 10,
-                    }}/>
+                    paddingLeft: 20,
+                    }}/></p>
                 </article>
                 <article className='card2'>
                     <img src={require("./images/bruschetta.jpg")} alt="Bruschetta" style={{
-                    width: 100,
-                    height: 100,
+                    width: 300,
+                    height: 225,
                     borderRadius: 10,
                     }}/>
-                    <h1 className='dish'>Bruschetta</h1>
-                    <p className='price'>$5.99</p>
+                    <h2 className='dish'>Bruschetta</h2>
+                    <p className='price' style={{color: '#FA7000', fontWeight: 'bold'}}>$5.99</p>
                     <p className="description">Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. </p>
-                    <p className='order'>Order a Delivery</p>
-                    <img src={require("./images/bikeIcon.png")} alt="Delivery icon" style={{
-                        width: 10,
-                        height: 10,
-                        borderRadius: 10,
-                    }}/>
+                    <p className='order'>Order a Delivery <img src={require("./images/bikeIcon.png")} alt="Delivery icon" style={{
+                    width: 15,
+                    height: 15,
+                    borderRadius: 10,
+                    paddingLeft: 20,
+                    }}/></p>
                 </article>
                 <article className='card3'>
                     <img src={require("./images/lemonDessert.jpg")} alt="Lemon Dessert" style={{
-                    width: 100,
-                    height: 100,
+                    width: 300,
+                    height: 225,
                     borderRadius: 10,
                     }}/>
-                    <h1 className='dish'>Lemon Dessert</h1>
-                    <p className='price'>$5.00</p>
+                    <h2 className='dish'>Lemon Dessert</h2>
+                    <p className='price' style={{color: '#FA7000', fontWeight: 'bold'}}>$5.00</p>
                     <p className="description">This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
-                    <p className='order'>Order a Delivery</p>
-                    <img src={require("./images/bikeIcon.png")} alt="Delivery icon" style={{
-                        width: 10,
-                        height: 10,
-                        borderRadius: 10,
-                    }}/>
+                    <p className='order'>Order a Delivery <img src={require("./images/bikeIcon.png")} alt="Delivery icon" style={{
+                    width: 15,
+                    height: 15,
+                    borderRadius: 10,
+                    paddingLeft: 20,
+                    }}/></p>
 
                 </article>
             </div>

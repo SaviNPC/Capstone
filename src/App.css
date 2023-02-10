@@ -1,8 +1,4 @@
 
-*{
-  margin: auto;
-}
-
 @media (max-width: 640px){
   body{
     text-align: center;
@@ -27,16 +23,58 @@
   }
 }
 
-body{
+body1{
   margin: 20px;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px;
+  grid-template-areas:
+    "Header Header Header Header Header Header Header Header"
+    "Nav Nav Nav Nav Nav Nav Nav Nav"
+    "Nav Nav Nav Nav Nav Nav Nav Nav"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Main Main Main Main Main Main Main Main"
+    "Footer Footer Footer Footer Footer Footer Footer Footer"
+    "Footer Footer Footer Footer Footer Footer Footer Footer"
+    "Footer Footer Footer Footer Footer Footer Footer Footer"
+    "Footer Footer Footer Footer Footer Footer Footer Footer";
 }
 
 Header{
+  grid-area: Header;
   margin: 10px;
   padding: 1px;
   border-radius: 10px;
   font-size: 125%;
   display: inline-flex;
+}
+
+Nav{
+  grid-area: Nav;
 }
 
 Nav .navBar{
@@ -60,53 +98,245 @@ Nav a{
   text-decoration: none;
   color: black;
   font-weight: 500;
+  transition-duration: 0.4s;
+}
+Nav a:hover{
+  text-decoration: none;
+  color: #F4CE14;
+  font-weight: 500;
 }
 /*Nav Ends*/
 
 
 Main{
-  margin: 10px;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 125%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.8fr 1.5fr 0.9fr 0.8fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "intro intro intro"
+    "specials specials specials"
+    "testimonials testimonials testimonials"
+    "outro outro outro";
+  grid-area: Main;
 }
 
 
 
 Main .intro{
+  grid-area: intro;
   background-color: #495E57;
-  margin: 0px;
-  padding: 0%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    ". h1 h1 . img img img ."
+    ". h2 h2 . img img img ."
+    ". p p . img img img ."
+    ". p p . img img img ."
+    ". button button . img img img ."
+    ". . . . img img img .";
 }
 
 Main .intro h1{
   color: #F4CE14;
+  grid-area: h1;
+  font-family: 'Markazi Text', serif;
+  font-size: 300%;
+  font-weight: 600;
+  
 }
 
 Main .intro h2{
   color: #EDEFEE;
+  grid-area: h2;
+  font-family: 'Markazi Text', serif;
+  font-size: 200%;
+  font-weight: 600;
+  
 }
 
 Main .intro p{
   color: #EDEFEE;
+  grid-area: p;
+  font-size: 150%;
+  font-family: 'Karla', sans-serif;
 }
 
 Main .intro button{
   background-color: #F4CE14;
   color: #000000;
   font-weight: bold;
+  grid-area: button;
+  border: 1px solid #000000;
+  font-size: 26px;
+  height: 50%;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: 'Karla', sans-serif
+}
+
+Main .intro button:hover{
+  background-color: #b19508;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+Main .intro button:active{
+  background-color: #62e467;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition: 0s;
+}
+
+Main .intro img{
+  grid-area: img;
+  width: 500px;
+  margin: 5%;
+
+}
+
+Main .specials{
+  grid-area: specials;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.7fr 1.3fr;
+  grid-template-areas:
+    "h1 h1 button"
+    "cards cards cards";
+}
+
+Main .specials h1{
+  grid-area: h1;
+  font-family: 'Markazi Text', serif;
+  font-size: 60px;
+  font-weight: 600;
+  justify-self: center;
+  align-self: center;
+}
+
+Main .specials button{
+  grid-area: button;
+  background-color: #F4CE14;
+  color: #000000;
+  font-weight: bold;
+  grid-area: button;
+  border: 1px solid #000000;
+  font-size: 26px;
+  height: 50%;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: 'Karla', sans-serif;
+  align-self: center;
+  height: 15%;
+  width: 60%;
+  border-radius: 16px;
+}
+
+Main .specials button:hover{
+  background-color: #b19508;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+Main .specials button:active{
+  background-color: #62e467;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition: 0s;
+}
+
+Main .specials .cards{
+  grid-area: cards;
+  align-self: start;
+  display: grid;
+  gap: 10px 150px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "card1 card2 card3";
+}
+
+Main .specials .cards .card1{
+  grid-area: card1;
+  align-self: start;
+  justify-self: center;
+  width: 300px;
+  height: 500px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-family: 'Karla', sans-serif;
+}
+
+Main .specials .cards .card1 img{
+  transition: .3s ease;
+  background-color: #F4CE14;
+  background: #F4CE14;
+}
+
+Main .specials .cards .card1 img:hover{
+  transform: scale(1.2, 1.2);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+Main .specials .cards .card2{
+  grid-area: card2;
+  align-self: start;
+  justify-self: center;
+  width: 300px;
+  height: 500px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-family: 'Karla', sans-serif;
+}
+
+Main .specials .cards .card2 img{
+  transition: .3s ease;
+  background-color: #F4CE14;
+  background: #F4CE14;
+}
+
+Main .specials .cards .card2 img:hover{
+  transform: scale(1.2, 1.2);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+Main .specials .cards .card3{
+  grid-area: card3;
+  align-self: start;
+  justify-self: center;
+  width: 300px;
+  height: 500px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-family: 'Karla', sans-serif;
+}
+
+Main .specials .cards .card3 img{
+  transition: .3s ease;
+  background-color: #F4CE14;
+  background: #F4CE14;
+}
+
+Main .specials .cards .card3 img:hover{
+  transform: scale(1.2, 1.2);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
 }
 
 Main .testimonies{
+  grid-area: testimonials;
   display: flex;
 }
 
 Main .cards{
   display: flex;
 }
+
+Main .outro{
+  grid-area: outro;
+}
 /*MAIN ENDS*/
 
 Footer{
+  grid-area: Footer;
   background-color: #92929211;
   margin: 10px;
   padding: 15px;
