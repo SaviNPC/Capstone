@@ -1,27 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
-@media (max-width: 640px){
-  body{
+@media (max-width: 640px) {
+  body {
     text-align: center;
   }
-  Nav{
+  Nav {
     flex-direction: column;
   }
-  Nav ul{
+  Nav ul {
     flex-direction: column;
   }
-  Nav li{
+  Nav li {
     margin: 0.8em 0;
   }
-  Footer{
+  Main {
     flex-direction: column;
   }
-  Footer ul{
+  Footer {
     flex-direction: column;
   }
-  Footer li{
+  Footer ul {
+    flex-direction: column;
+  }
+  Footer li {
     margin: 0.8em 0;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  Main .intro {
+    grid-template-areas:
+      ". h1 h1 ."
+      ". h2 h2 ."
+      ". p p ."
+      ". p p ."
+      ". button button ."
+      ". img img .";
+  }
+
+  Main .intro img{
+    width: 80%;
+  }
+  
+  Main .specials {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "h1"
+      "cards"
+      "button";
+  }
+  
+  Main .specials h1 {
+    font-size: 40px;
+  }
+  
+  Main .specials button {
+    width: 80%;
+    font-size: 20px;
+  }
+  
+  Main .specials .cards {
+    gap: 10px 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3";
+  }
+  
+  Main .specials .cards .card1,
+  Main .specials .cards .card2,
+  Main .specials .cards .card3 {
+    width: 90%;
+    height: 400px;
+  }
+}
+
+/* @media (max-width: 700px) {
+  .grid-adjustable-columns {
+    display: grid;
+    grid-auto-flow: row;
+  }
+}
+
+@media (min-width: 701px) {
+  .grid-adjustable-columns {
+    width: min(1000px,75rem);
+    margin: 0 auto;
+    grid-auto-flow: column;
+    gap: 1em;
+  }
+} */
+
 
 body1{
   margin: 20px;
@@ -143,25 +215,28 @@ Main .intro h1{
   color: #F4CE14;
   grid-area: h1;
   font-family: 'Markazi Text', serif;
-  font-size: 300%;
+  font-size: 3.5rem;
   font-weight: 600;
-  
+  text-align: center;
+
 }
 
 Main .intro h2{
   color: #EDEFEE;
   grid-area: h2;
   font-family: 'Markazi Text', serif;
-  font-size: 200%;
+  font-size: 2.25rem;
   font-weight: 600;
-  
+  text-align: center;
+
 }
 
 Main .intro p{
   color: #EDEFEE;
   grid-area: p;
-  font-size: 150%;
+  font-size: 1.5rem;
   font-family: 'Karla', sans-serif;
+  text-align: center;
 }
 
 Main .intro button{
@@ -174,7 +249,10 @@ Main .intro button{
   height: 50%;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  font-family: 'Karla', sans-serif
+  font-family: 'Karla', sans-serif;
+  margin: 0 auto;
+  display: block;
+  padding: 1rem 2rem;
 }
 
 Main .intro button:hover{
@@ -191,8 +269,11 @@ Main .intro button:active{
 
 Main .intro img{
   grid-area: img;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   margin: 5%;
+  display: block;
+  margin: 5 auto;
 
 }
 
@@ -321,18 +402,95 @@ Main .specials .cards .card3 img:hover{
   box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
 }
 
-Main .testimonies{
+Main .testimonials{
   grid-area: testimonials;
-  display: flex;
+  background-color: #F4CE14;
+  padding: 70px 0;
 }
 
-Main .cards{
+Main .testimonials h1{
+  font-family: 'Markazi Text', serif;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+Main .testimonials .testimonies{
   display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+Main .testimonials .testimonies .rate{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #9e9e9e;
+  display: inline-block;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  margin: 35px 10px 10px;
+  max-width: 310px;
+  min-width: 250px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid #495E57;
+  padding: 40px;
 }
 
 Main .outro{
   grid-area: outro;
+  background-color: #495E57;
 }
+
+Main .outro h1{
+  color: #F4CE14;
+  grid-area: h1;
+  font-family: 'Markazi Text', serif;
+  font-size: 300%;
+  font-weight: 600;
+}
+
+Main .outro h2{
+  color: #EDEFEE;
+  grid-area: h2;
+  font-family: 'Markazi Text', serif;
+  font-size: 200%;
+  font-weight: 600;
+}
+
+Main .outro p{
+  color: #EDEFEE;
+  grid-area: p;
+  font-size: 150%;
+  font-family: 'Karla', sans-serif;
+}
+
+Main .outro .chefPic{
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+Main .outro .top{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 100px;
+  left: 100px;
+}
+
+main .outro .bot{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
 /*MAIN ENDS*/
 
 Footer{
@@ -343,52 +501,48 @@ Footer{
   border-radius: 10px;
   font-size: 125%;
   display: flex;
+  justify-content: space-evenly;
 }
 
-/*
-Header{
-  background-color: #db56a8;
-  min-height: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+Footer a{
+  width: 90px;
+  height: 30px;
+  align-self: center;
 }
 
-.navBar{
-  background-color: aqua;
-  display: flex;
+Footer a:hover{
+  width: 90px;
+  height: 30px;
+  align-self: center;
+  transform: translateY(-5px);
 }
 
-.navBar .navMenu{
-  display: flex;
+Footer ul{
   list-style: none;
   font-weight: 500;
-  background-color: #db56a8;
-  gap: 10px;
 }
 
-Main {
-  display: grid;
-  background-color: #61dafb;
-  grid-template: "main right" 75rem;
+Footer ul li{
+  font-weight: 200;
+}
+Footer ul li a{
+  color: #000000;
+}
+Footer ul li a:hover{
+  color: #F4CE14;
 }
 
-Footer {
-  display: grid;
-  grid-template-columns: none;
-  grid-auto-flow: column;
-  background-color: rgb(143, 43, 43);
-  font-weight: 500;
-  grid-template: "footer footer" 12rem;
-  align-content: center;
-  padding-top: 5%;
+Footer .ig:hover{
+  color: #c32aa3;
+  font-weight: 300;
 }
 
-Footer img{
-  padding-top: 5%;
-  padding-left: 40%;
+Footer .fb:hover{
+  color: #1877f2;
+  font-weight: 300;
 }
-*/
+
+Footer .tw:hover{
+  color: #1da1f2;
+  font-weight: 300;
+}
