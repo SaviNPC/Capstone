@@ -10,7 +10,6 @@ import Specials from './mainComponents/Specials';
 import OrderOnline from './components/OrderOnline';
 import Login from './components/Login';
 import Intro from './mainComponents/Intro'
-import { useRef } from 'react';
 
 function Nav(){
 
