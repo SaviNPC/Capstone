@@ -1,0 +1,41 @@
+form {
+    display: grid;
+    max-width: 400px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  form input,
+  form select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0069d9;
+  }

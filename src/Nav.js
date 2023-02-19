@@ -10,6 +10,8 @@ import Specials from './mainComponents/Specials';
 import OrderOnline from './components/OrderOnline';
 import Login from './components/Login';
 import Intro from './mainComponents/Intro'
+import BookingPage from './components/BookingPage';
+import { useState } from 'react';
 
 function Nav(){
 
@@ -28,6 +30,8 @@ function Nav(){
         intro.scrollIntoView( { behavior: 'smooth' } )
     }
 
+    const [buttonPopup, setButtonPopup] = useState(false);
+
     return (
         <nav>
             <BrowserRouter className="navBar">
@@ -36,7 +40,10 @@ function Nav(){
                     <li><button onClick={goToHome}>Home</button></li>
                     <li><button onClick={goToMenu}>Menu</button></li>
                     <li><button onClick={goToAbout}>About</button></li>
-                    <li><Link to='/reservations'>Reservations</Link></li>
+                    <li><button onClick={() => setButtonPopup(true)}>Reservations</button></li>
+                    <BookingPage trigger={buttonPopup} setTrigger={setButtonPopup}>
+                        <Reservations />
+                    </BookingPage>
                     <li><Link to='/order'>Order Online</Link></li>
                     <li><Link to='/login'>Login</Link></li>
                 </ul>
