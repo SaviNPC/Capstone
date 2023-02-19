@@ -15,7 +15,6 @@ function Intro(){
             <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur.</p>
             <button style={{borderRadius: 12}} onClick={() => setButtonPopup(true)}>Reserve a Table</button>
             <BookingPage trigger={buttonPopup} setTrigger={setButtonPopup}>
-                <Reservations />
             </BookingPage>
             <img src={require("./../images/4food.jpg")} alt="Four pieces of food" style={{
                 borderRadius: 10,

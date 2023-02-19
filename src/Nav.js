@@ -42,7 +42,6 @@ function Nav(){
                     <li><button onClick={goToAbout}>About</button></li>
                     <li><button onClick={() => setButtonPopup(true)}>Reservations</button></li>
                     <BookingPage trigger={buttonPopup} setTrigger={setButtonPopup}>
-                        <Reservations />
                     </BookingPage>
                     <li><Link to='/order'>Order Online</Link></li>
                     <li><Link to='/login'>Login</Link></li>

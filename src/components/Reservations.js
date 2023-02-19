@@ -3,31 +3,50 @@ import "./Reservations.css";
 import { useState } from 'react';
 // Date, Time, Number of Guests, Occasion (Birthday, anniversary), Submit reservation button
 
-function Reservations() {
+function Reservations(props) {
 
-    const [date, setDate] = useState("dd/mm/aaaa")
-    const [time, setTime] = useState("17:00")
+    const { availableTimes, handleDateChange, setBooking } = props
+    const [time, setTime] = useState("")
     const [guests, setGuests] = useState("1")
-    const [occasion, setOccasion] = useState("Birthday")
-    // Available times? stateful array in the component named availableTimes and use this state variable to populate the time select field options.
+    const [occasion, setOccasion] = useState('Birthday');
+    const [date, setDate] = useState("")
+    
 
+    const handleTimeChange = (event) => {
+        setTime(event.target.value);
+    };
+    
+    const handleGuestsChange = (event) => {
+        setGuests(parseInt(event.target.value));
+    };
+    
+    const handleOccasionChange = (event) => {
+        setOccasion(event.target.value);
+    };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const booking = { date, time, guests, occasion };
+        setBooking(booking);
+    };
+    
     return (
-        <form>
+        <form onSubmit={handleSubmit}>
             <label htmlFor={"res-date"}>Choose date</label>
-            <input type="date" id="res-date" onChange={date}/>
+            <input type="date" id="res-date" />
+            
             <label htmlFor="res-time">Choose time</label>
-            <select id="res-time" onChange={time}>
-                <option>17:00</option>
-                <option>18:00</option>
-                <option>19:00</option>
-                <option>20:00</option>
-                <option>21:00</option>
-                <option>22:00</option>
+            <select id="res-time" value={time} onChange={handleTimeChange}>
+                {availableTimes.map((time) => (
+                    <option key={time}>{time}</option>
+                ))}
             </select>
+            
             <label htmlFor="guests">Number of guests</label>
-            <input onChange={guests} type="number" placeholder="1" min="1" max="10" id="guests" />
+            <input value={guests} onChange={handleGuestsChange} type="number" placeholder="1" min="1" max="10" id="guests" />
+            
             <label htmlFor="occasion">Occasion</label>
-            <select id="occasion" onChange={occasion}>
+            <select id="occasion" value={occasion} onChange={handleOccasionChange}>
                 <option>Birthday</option>
                 <option>Anniversary</option>
             </select>
