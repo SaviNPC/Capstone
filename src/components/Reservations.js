@@ -5,23 +5,28 @@ import { useState } from 'react';
 
 function Reservations(props) {
 
-    const { availableTimes, handleDateChange, setBooking } = props
-    const [time, setTime] = useState("")
-    const [guests, setGuests] = useState("1")
+    const { availableTimes, handleDateChange, setBooking } = props;
+    const [time, setTime] = useState("");
+    const [guests, setGuests] = useState("1");
     const [occasion, setOccasion] = useState('Birthday');
-    const [date, setDate] = useState("")
-    
+    const [date, setDate] = useState("");
+
 
     const handleTimeChange = (event) => {
         setTime(event.target.value);
     };
-    
+
     const handleGuestsChange = (event) => {
         setGuests(parseInt(event.target.value));
     };
-    
+
     const handleOccasionChange = (event) => {
         setOccasion(event.target.value);
+    };
+
+    const handleDateInputChange = (event) => {
+        setDate(event.target.value);
+        handleDateChange(event.target.value);
     };
 
     const handleSubmit = (event) => {
@@ -29,11 +34,11 @@ function Reservations(props) {
         const booking = { date, time, guests, occasion };
         setBooking(booking);
     };
-    
+
     return (
         <form onSubmit={handleSubmit}>
             <label htmlFor={"res-date"}>Choose date</label>
-            <input type="date" id="res-date" />
+            <input type="date" id="res-date" value={date} onChange={handleDateInputChange} />
             
             <label htmlFor="res-time">Choose time</label>
             <select id="res-time" value={time} onChange={handleTimeChange}>
